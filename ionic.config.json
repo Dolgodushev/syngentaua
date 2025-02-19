@@ -1,0 +1,7 @@
+{
+  "name": "syngentaua",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
