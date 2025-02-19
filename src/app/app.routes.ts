@@ -27,4 +27,32 @@ export const routes: Routes = [
     path: 'contacts',
     loadComponent: () => import('./pages/contacts/contacts.page').then( m => m.ContactsPage)
   },
+  {
+    path: 'fert',
+    loadComponent: () => import('./pages/cp/fert/fert.page').then( m => m.FertPage)
+  },
+  {
+    path: 'dezinf',
+    loadComponent: () => import('./pages/cp/dezinf/dezinf.page').then( m => m.DezinfPage)
+  },
+  {
+    path: 'rodent',
+    loadComponent: () => import('./pages/cp/rodent/rodent.page').then( m => m.RodentPage)
+  },
+  {
+    path: 'insect',
+    loadComponent: () => import('./pages/cp/insect/insect.page').then( m => m.InsectPage)
+  },
+  {
+    path: 'herb',
+    loadComponent: () => import('./pages/cp/herb/herb.page').then( m => m.HerbPage)
+  },
+  {
+    path: 'fung',
+    loadComponent: () => import('./pages/cp/fung/fung.page').then( m => m.FungPage)
+  },
+  {
+    path: 'retar',
+    loadComponent: () => import('./pages/cp/retar/retar.page').then( m => m.RetarPage)
+  },
 ];
